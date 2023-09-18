@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1:hover{
+    color: rgb(160, 116, 137);
+}
+
+.main{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(222, 159, 191);
+}
+
+.quadrato{
+    width: 10%;
+    border: 1px solid white;
+}
+
+.quadrato:active{
+    background-color: blueviolet;
+}
