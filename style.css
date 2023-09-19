@@ -10,7 +10,7 @@
 
 h1{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 70px;
     font-size: 40px;
     font-family:'Courier New', Courier, monospace;
 }
@@ -19,8 +19,23 @@ h1:hover{
     color: rgb(160, 116, 137);
 }
 
+.scelta{
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.scelta button{
+    width: 75px;
+    margin-left: 20px;
+    padding: 5px 5px;
+    background-color: rgb(249, 226, 238);
+    cursor: pointer;
+    border: 1px solid rgb(255, 188, 255);
+    border-radius: 5px;
+}
+
 .main{
-    height: 100vh;
+    height: 60vh;
     justify-content: center;
     align-items: center;
 }
